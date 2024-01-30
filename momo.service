@@ -1,0 +1,12 @@
+[Unit]
+Description = momo
+
+[Service]
+WorkingDirectory=/usr/share/momo-2022.4.1_raspberry-pi-os_armv8
+ExecStart=/usr/share/momo-2022.4.1_raspberry-pi-os_armv8/momo --framerate 30 --resolution VGA --fixed-resolution test --port 8205
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+
