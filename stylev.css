@@ -9,6 +9,7 @@ body { margin: 0px 0px 0px 0px; }
   background: transparent; 
   border: none;
   padding: 0em 5em;/* 上下・左右 */
+  visibility: hidden;
 }
 #speaker {
   width: 32px;
